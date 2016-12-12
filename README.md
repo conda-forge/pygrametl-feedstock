@@ -11,6 +11,18 @@ Summary: ETL programming in Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygrametl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygrametl-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygrametl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygrametl-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygrametl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygrametl-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygrametl/badges/version.svg)](https://anaconda.org/conda-forge/pygrametl)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygrametl/badges/downloads.svg)](https://anaconda.org/conda-forge/pygrametl)
+
 Installing pygrametl
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pygrametl` available on your plat
 ```
 conda search pygrametl --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygrametl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygrametl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygrametl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygrametl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygrametl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygrametl-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygrametl/badges/version.svg)](https://anaconda.org/conda-forge/pygrametl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygrametl/badges/downloads.svg)](https://anaconda.org/conda-forge/pygrametl)
 
 
 Updating pygrametl-feedstock
