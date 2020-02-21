@@ -1,4 +1,4 @@
-{% set version = "2.5.0" %}
+{% set version = "2.6" %}
 {% set name = "pygrametl" %}
 
 package:
@@ -8,16 +8,16 @@ package:
 source:
   fn: pygrametl-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7db0b98f6c817fc39e3d049c74b6aafbe0807e9322565fca1acdf9cf83607ad1
+  sha256: 7671c58bb9ddf4d8ffb565fa9cb29f5e0484a7dc8c88f30bcb820370e69e5a52
 
 build:
-  number: 1001
-  script: python setup.py install
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
     - python
-
+    - pip
   run:
     - python
 
